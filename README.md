@@ -11,18 +11,18 @@ The model generates textual descriptions of images based on visual features.
 
 ## 📂 Project Structure
 
-├── Flicker8k_Dataset/ # Image dataset (NOT in repo) \n
-├── Flickr8k_text/ # Caption files (NOT in repo) \n
-├── models2/ # Trained model weights (NOT in repo) \n
-├── static/ # For website use (Flask/Streamlit) \n
-├── test.py # Run inference \n
-├── model.py # Training script \n
-├── tokenizer.p # Saved tokenizer \n
-├── descriptions.txt # Clean captions \n
-├── features.p # Image features \n
-├── requirements.txt \n
-├── .gitignore \n
-└── README.md \n
+├── Flicker8k_Dataset/ # Image dataset (NOT in repo)
+├── Flickr8k_text/ # Caption files (NOT in repo)
+├── models2/ # Trained model weights (NOT in repo)
+├── static/ # For website use (Flask/Streamlit)
+├── test.py # Run inference
+├── model.py # Training script
+├── tokenizer.p # Saved tokenizer
+├── descriptions.txt # Clean captions
+├── features.p # Image features
+├── requirements.txt
+├── .gitignore
+└── README.md
 
 
 ---
