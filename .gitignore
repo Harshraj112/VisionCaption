@@ -1,0 +1,35 @@
+# Virtual environments
+.venv/
+env/
+tfenv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Dataset folders
+Flicker8k_Dataset/
+Flickr8k_text/
+
+# Trained models & weights
+models2/
+*.h5
+features.p
+
+# Large generated images
+model.png
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Uploaded images (flask/static)
+static/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS
+.DS_Store

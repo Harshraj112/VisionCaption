@@ -1,0 +1,9 @@
+tensorflow>=2.12
+keras>=2.12
+numpy
+matplotlib
+pillow
+tqdm
+h5py
+pydot
+graphviz
