@@ -27,6 +27,16 @@ After downloading, extract and place the folder as:
 
 ---
 
+### 🔹 Caption Text Files
+
+Download from Google Drive:
+
+https://drive.google.com/file/d/1qcRy3WpQv4dGtu65gETtYLWxDPBrRtx1/view
+
+After downloading, extract and place the folder as:
+
+--
+
 ## 📂 Project Structure
 
 ├── Flicker8k_Dataset/ # Image dataset (NOT in repo)
