@@ -9,6 +9,24 @@ The model generates textual descriptions of images based on visual features.
 
 ---
 
+
+## 📥 Dataset Download (Flickr8K)
+
+Due to GitHub file size limits, the dataset is **not included in this repository**.  
+Download the required datasets from the links below.
+
+---
+
+### 🔹 Image Dataset
+
+Download from Google Drive:
+
+https://drive.google.com/file/d/1u3oqx36XApnAykFDB6EEWUIfd_CxRQQ9/view
+
+After downloading, extract and place the folder as:
+
+---
+
 ## 📂 Project Structure
 
 ├── Flicker8k_Dataset/ # Image dataset (NOT in repo)
