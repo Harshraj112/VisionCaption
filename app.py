@@ -68,8 +68,17 @@ def download_model_weights():
         os.makedirs(MODEL_DIR)
     if not os.path.exists(MODEL_PATH):
         with st.spinner("Downloading model weights from Google Drive..."):
-            url = f"https://drive.google.com/uc?id={GDRIVE_MODEL_ID}"
-            gdown.download(url, MODEL_PATH, quiet=False)
+            try:
+                url = f"https://drive.google.com/uc?id={GDRIVE_MODEL_ID}"
+                gdown.download(url, MODEL_PATH, quiet=False)
+            except Exception as e:
+                st.error(
+                    "**Failed to download model weights from Google Drive.**\n\n"
+                    "Please ensure the file is shared as **'Anyone with the link'** on Google Drive.\n\n"
+                    f"Google Drive file ID: `{GDRIVE_MODEL_ID}`\n\n"
+                    f"Error: {e}"
+                )
+                st.stop()
 
 
 # ─── Feature Extraction ───
